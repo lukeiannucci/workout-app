@@ -1,0 +1,11 @@
+<mat-card>
+    <mat-card-title>Workout List</mat-card-title>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item *ngFor="let workout of workouts">
+          <h3 mat-line>{{workout.title}}</h3>
+          <h3 mat-line>{{workout.workoutPOType}}</h3>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
